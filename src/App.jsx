@@ -1,9 +1,10 @@
+import { Button } from "primereact/button";
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0);
 
   return (
-    <button label="cuidado" severity="warning" rounded></button>
+    <Button label="Cuidado" severity="warning" rounded></Button>
   )
 }
 
